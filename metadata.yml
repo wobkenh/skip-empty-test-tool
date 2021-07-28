@@ -1,0 +1,10 @@
+name: Skip Empty Plugin
+description: Plugin for generating empty test templates for Skip
+author: Henning Wobken
+testTypes:
+  - Functional
+executor: bash
+ci:
+  image: debian
+  commands:
+    - bash test.bash
